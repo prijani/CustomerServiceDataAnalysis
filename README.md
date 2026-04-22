@@ -53,6 +53,6 @@ K-Means successfully identified three distinct profiles in modern music:
 
 ---
 
-**Author:** [Your Name]  
+**Author:** Priya Jani (Vanna Q, Cole D)  
 **Date:** April 2026  
 **Course:** Statistical Data Analysis
