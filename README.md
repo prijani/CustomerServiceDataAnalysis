@@ -1,6 +1,8 @@
 # Spotify Track Analysis and Popularity Prediction
 
-This project explores a dataset of over 110,000 Spotify tracks to identify the mathematical patterns that drive musical popularity. Using Python's statistical and machine learning libraries, the study analyzes audio features (such as danceability, energy, and valence) to predict hits and group tracks into distinct musical categories and audio features and to determine the relationship with popularity based on catchiness.
+This project explores a dataset of over 110,000 Spotify tracks to identify the mathematical patterns that drive musical popularity. Using Python's statistical and machine learning libraries, the study analyzes audio features (such as danceability, energy, and valence) to predict hits and group tracks into distinct musical categories and audio features and to determine the relationship with popularity based on catchiness. 
+
+**Why does this matter?** Artists can use these features to determine what they should possibly include in their songs to make a “hit". In turn, it creates more fun and engaging songs for us.  
 
 ## Dataset
 
@@ -108,6 +110,14 @@ The Random Forest classifiers successfully decoded distinct acoustic signatures 
 
 ### Catchiness Score
 Catchiness score successfully demonstrated a correlation with popularity. The scatterplot was heavily right-leaning, which seems to imply that catchiness is a requirement for songs.
+
+## Limitations and what we would do differently
+
+**Limitations:** Many analyses had low predictive and explanatory power, despite being statistically significant; further testing required.
+Performing a median split for Logistic Regression helped with analysis, but may have oversimplified the nuance of the continuous variables split. PCA utilizes feature importance, which may introduce subjectivity into "catchiness" definition.
+
+**What we would do differently:** Our dataset only included audio features, not external factors. It appears that external factors like artist fame, marketing budgets, and social media trends are more influential than explanation of the music alone, although predictive analytics still reveal relationships to popularity and common groupings. We would like to analyze how these external factors also play into 
+making a "hit".
 
 **Authors:** Priya Jani, Vanna Quach, Cole Decker
 
