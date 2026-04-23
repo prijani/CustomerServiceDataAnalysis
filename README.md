@@ -36,7 +36,7 @@ This notebook contains the **Advanced Statistical Modeling** and machine learnin
 
 * **K-Means Clustering:** An unsupervised learning approach to group songs into "Musical Tribes." This section utilizes feature scaling (L2 Norms) and centroid analysis to define distinct clusters of sound regardless of metadata labels.
 
-### 3. Predictions.ipynb
+### 3. PredictionsAnalysis.ipynb
 
 This notebook includes **non-linear algorithms** and **multiclass predictions**.
 
@@ -56,7 +56,11 @@ This notebook includes **Feature Engineering**.
 
 * **Custom Feature Engineering:** The development of a "Catchiness Score", a weighted composite metric derived from the narrowed audio features from **Feature Importance**. This section explores how engineered features can sometimes provide more insight than raw API data.
 
-* **Correlation Mapping:** A scatterplot looking at how our engineered catchiness score correlates with a track's popularity, testing our hypothesis that "catchier" traits lead to greater commercial success. 
+* **Correlation Mapping:** A scatterplot looking at how our engineered catchiness score correlates with a track's popularity, testing our hypothesis that "catchier" traits lead to greater commercial success.
+
+### 5. MSP04 Final Presentation Visuals.pdf
+
+This pdf includes the presentation slides and key visuals obtained from the above analyses. It runs through the Preprocessing, EDA & Exploratory Visualization, Overall Initial Analysis, Prediction Analysis, and Catchiness Analysis.
 
 ## Methods and Tools Used
 
