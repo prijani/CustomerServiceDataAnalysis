@@ -88,7 +88,7 @@ K-Means successfully identified three distinct profiles in modern music:
 
 3. **The Feel-Good Hits:** High danceability and high valence.
 
-**Authors:** Priya Jani, Vanna Q, Cole D
+**Authors:** Priya Jani, Vanna Q, Cole Decker
 
 **Date:** April 2026
 
